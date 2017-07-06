@@ -6,7 +6,7 @@
 // send eight character string like 15001500 or 14501550
 // use serial monitor to test
 
-#include <Servo.h> 
+#include <Servo.h>
 String readString, servo1, servo2;
 Servo myservo1;  // create servo object to control a servo 
 //Servo myservo2;
@@ -18,6 +18,7 @@ void setup() {
   //myservo2.attach(7);
   Serial.println("two-servo-test-1.0"); // so I can keep track of what is loaded
 }
+
 
 void loop() {
 
